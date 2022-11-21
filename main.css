@@ -1,0 +1,96 @@
+body {
+background-color: coral;
+font-size: 20px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    gap: 1.2em;
+
+}
+.ingredientes {
+    background-color: black;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    width: 30%;
+    
+    align-self: flex-start;
+    padding: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8%;
+    margin-bottom: 8px;
+
+}
+.ingredientes ul {
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.ingredientes li {
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+  
+    
+}
+.ingredientes h2 {
+    color: yellow;
+    font-size: 1.4em;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.preparacion {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 20px;
+    border-radius: 8%;
+    
+}
+.preparacion h2 {
+color: yellow;
+font-size: 1.4em;
+display: block;
+margin-top: 10px;
+margin-left: 20px;
+text-align: center
+}
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10em;
+}
+
+.preparacion img {
+object-position: center center;
+max-width: 100%;
+display: block;
+ border-radius: 10%;
+}
+.preparacion p {
+    margin:10px
+
+}
+.preparacion span {
+    color:yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.temporizador {
+    background-color: black;
+    border-radius: 10%;
+    color: white;
+}
+#boton {
+    color: red;
+}
