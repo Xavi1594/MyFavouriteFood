@@ -1,14 +1,25 @@
 header {
     text-align: center;
-    background-color: black;
+  
     margin: 50px;
 }
-h1 {
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   
-}
+
 header img {
-    width: 500px;
+    width: 10%;
+   display: flex;
+   flex-direction: column;
+
   
+}
+header img :hover {
+  
+}
+h1 {
+    color: yellow;
+    font-size: 40px;
+    text-decoration:solid;
+   text-align: left;
+   width: 100%;
+   margin-top: 0px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

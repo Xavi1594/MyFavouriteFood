@@ -9,19 +9,20 @@
 </head>
 <body>
     <header>
+    
+    <img id="baner" src="./src/img/baner5.jpg">
     <h1>Pizza Inmovil</h1>
-    <img id="baner" src="./src/img/pizza2.png">
 </header>
 
 <div class="contenedor">
 <div class="ingredientes">
-    <h2>Elige la masa</h2>
+    <label class="titulos-ingredientes" for="name">Elige la masa </label> 
     <ul>
         <li>Masa Fina</li>
         <li>Masa normal</li>
         <li>Masa gruesa</li>
     </ul>
-    <h2>Elige los ingredientes</h2>
+    <label class="titulos-ingredientes" for="name">Elige los ingredientes </label> 
     <ul>
         <li>Queso de Cabra</li>
         <li>Champiñones</li>
@@ -39,14 +40,20 @@
     <p>Puedes escoger entre cualquiera de nuestros <span>tres tipos de masa</span> totalmente casera.</p>
     <p>Una vez realizada la selección de ingredientes, tu pizza pasa al horno durante <span>10 minutos.</span> Si haces click en nuestro temporizador y tardamos más, <span> TE DEVOLVEMOS EL DINERO.</span></p>
 </div>
-<div class="temporizador">
-   <h3>Pulsa para empezar la cuenta atrás</h3>
-   <input id="boton" type="button" value="Empieza la cuenta atrás">
-</div>
+
+<article class="time">
+    <div class="time__container">
+      <div class="time__container__timer none"></div>
+      <p class="time__paragraph">Empieza la cuenta atrás</p>
+      <button class="time__button">Púlsame</button>
+    </div>
+  </article>
+
 </div>
 </body>
 <footer>
     &copy;
-    <h3>Xavier Villaverde delivery SA</h3>
+    Xavier Villaverde delivery SA
 </footer>
+<script src="./src/app.js"></script>
 </html>

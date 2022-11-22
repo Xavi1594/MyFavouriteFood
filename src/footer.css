@@ -1,7 +1,11 @@
 footer {
+    height: 100px;
+    margin-top: 40px;
     background-color: black;
-    margin-top: 20px;
-}
-footer h3 {
-    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+  
 }
